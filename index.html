@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EatSwift</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Inter&family=Open+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+
+    <!---------------------------------------- Nav  -------------------------------------------->
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="#home">EatSwift</a></h1>
+            </div>
+            <div class="links" id="nav-links">
+                <ul>
+                    <li class="close">
+                        <a href="#home"><i class="fa-solid fa-xmark"></i></a>
+                    </li>
+                    <li><a href="#home" class="home-link">Home</a></li>
+                    <li><a href="#chefs" class="chefs-link">Chefs</a></li>
+                    <li><a href="#gallery" class="gallery-link">Gallery</a></li>
+                    <li><a href="#contact" class="contact-link">Contact</a></li>
+                </ul>
+            </div>
+            <div class="mode-group">
+                <label for="mode" class="dark">
+                    <i class="fa-solid fa-moon"></i>
+                </label>
+                <label for="mode" class="light">
+                    <i class="fa-regular fa-sun"></i></label>
+                <input type="checkbox" id="mode" class="mode" hidden="" aria-hidden="">
+            </div>
+            <a href="#nav-links" class="menu-icon"><i class="fa-solid fa-bars"></i></a>
+        </div>
+    </nav>
+
+    <!---------------------------------------- Home  -------------------------------------------->
+    <section id="home">
+        <div class="container">
+            <div class="child home-content">
+                <h2>Experience the Rich Flavors of India</h2>
+                <p>Indulge in a wide range of authentic Indian delicacies that will tantalize your taste buds and bring the vibrant culture of India to your table.</p>
+                <div class="home-btns">
+                    <a href="#contact" class="book-btn">Reserve a Table</a>
+                    <div class="watch-btn">
+                        <div class="watch-icon">
+                            <i class="fa-solid fa-play "></i>
+                        </div>
+                        <a href="https://www.youtube.com" class="watch-btn"> Watch a Video</a>
+                    </div>
+                </div>
+            </div>
+            <div class="child home-img">
+                <img src="./img/img/hero-img.png" alt="Indian Dish">
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------------------- Chefs  -------------------------------------------->
+    <section id="chefs">
+        <div class="container">
+            <div class="main-title">
+                <h2>chefs</h2>
+                <p>Meet Our <span>Expert</span> Chefs</p>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="./img/img/chefs/chefs-1.jpg" alt="chef1">
+                </div>
+                <h3>Sanjeev Kapoor</h3>
+                <span>Head Chef</span>
+                <p>With years of experience in Indian cuisine, Chef Sanjeev brings authentic flavors to every dish, making each meal a memorable experience.</p>
+                <div class="social-list">
+                    <ul>
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-linkedin"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="./img/img/chefs/chefs-2.png" alt="chef2">
+                </div>
+                <h3>Anahita Dhondy</h3>
+                <span>Pastry Chef</span>
+                <p>Specializing in Indian-inspired desserts, Chef Ritu creates a fusion of traditional flavors with modern twists that will delight your palate.</p>
+                <div class="social-list">
+                    <ul>
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-linkedin"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-img">
+                    <img src="./img/img/chefs/chefs-3.jpeg" alt="chef3">
+                </div>
+                <h3>Vikas Khanna</h3>
+                <span>Sous Chef</span>
+                <p>Bringing creativity to the kitchen, Chef Vikas combines traditional recipes with innovative techniques to deliver extraordinary culinary experiences.</p>
+                <div class="social-list">
+                    <ul>
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                        <li><i class="fa-brands fa-linkedin"></i></li>
+                        <li><i class="fa-brands fa-instagram"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------------------- Gallery  -------------------------------------------->
+    <section id="gallery">
+        <div class="container">
+            <div class="main-title">
+                <h2>gallery</h2>
+                <p>Explore <span>our gallery</span></p>
+            </div>
+            <div class="gallery-imgs">
+                <div class="biriyani img">
+                    <img src="./img/img/gallery/meal-1.jpg" alt="Pizza">
+                    <div class="img-overly">
+                        <div>
+                            <h2>Pizza</h2>
+                            <p>Cheesy Pizza with oregano and veggies.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="dosa img">
+                    <img src="./img/img/gallery/meal-2.jpg" alt="Dosa">
+                    <div class="img-overly">
+                        <div>
+                            <h2>Dosa</h2>
+                            <p>South Indian crispy dosa served with chutney and sambar.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="butter-chicken img">
+                    <img src="./img/img/gallery/meal-5.jpg" alt="Chicken">
+                    <div class="img-overly ">
+                        <div>
+                            <h2>Butter Chicken</h2>
+                            <p>Juicy and flavorful chicken marinated in Indian spices.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pav-bhaji img">
+                    <img src="./img/img/gallery/meal-4.jpg" alt="Pav Bhaji">
+                    <div class="img-overly">
+                        <div>
+                            <h2>Pav Bhaji</h2>
+                            <p>A spicy blend of vegetables served with soft buttered bread rolls.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tandoori img">
+                    <img src="./img/img/gallery/meal-3.jpg" alt="Burger">
+                    <div class="img-overly">
+                        <div>
+                            <h2>Burger</h2>
+                            <p>Juicy and flavorful burger marinated in Indian spices.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="jalebi img">
+                    <img src="./img/img/gallery/meal-6.jpg" alt="Jalebi">
+                    <div class="img-overly">
+                        <div>
+                            <h2>Jalebi</h2>
+                            <p>Sweet and crispy jalebi, a perfect Indian dessert.</p>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="gulab-jamun img">
+                    <img src="./img/img/gallery/meal-6.jpg" alt="Gulab Jamun">
+                    <div class="img-overly">
+                        <div>
+                            <h2>Gulab Jamun</h2>
+                            <p>Soft and juicy dumplings in sugar syrup.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---------------------------------------- Contact  -------------------------------------------->
+    <!-- <section id="contact">
+        <div class="container">
+            <div class="main-title">
+                <h2>contact</h2>
+                <p>Contact <span>us</span></p>
+            </div>
+            <div class="contact-content">
+                <div class="social">
+                    <div class="child">
+                        <div class="icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Location</h3>
+                            <p>123, Indian Street, Mumbai, India</p>
+                        </div>
+                    </div>
+                    <div class="child">
+                        <div class="icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>+91 12345 67890</p>
+                        </div>
+                    </div>
+                    <div class="child">
+                        <div class="icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>info@eatswift.com</p>
+                        </div>
+                    </div>
+                </div>
+                <form>
+                    <div class="field">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <input type="text" placeholder="Subject">
+                    <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section> -->
+
+    <!---------------------------------------- Footer  -------------------------------------------->
+    <footer class="footer">
+        <div class="container">
+            <div class="about">
+                <div class="logo">
+                    <img src="./img/img/favicon.png" alt="fav icon">
+                    <h3><a href="#home">EatSwift </a></h3>
+                </div>
+                <p>
+                    EatSwift is a restaurant landing page that offers a delicious dining
+                    experience to its customers.</p>
+                <h3 class="social">Social Media</h3>
+                <ul>
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-linkedin"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                </ul>
+            </div>
+            <div class="subscription">
+
+                <h3>Subscribe Our Newsletter</h3>
+                <p>Don't miss out on our latest menu updates and exclusive offers - join our newsletter today and stay
+                    up-to-date with all
+                    things Mealify!</p>
+
+                <div class="sub-mail">
+                    <input type="email" placeholder="Enter Your Email Address" name="sub-email">
+                    <button><i class="fa-solid fa-envelope"></i> Subscribe </button>
+                </div>
+                <div class="quick-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li>Menu</li>
+                        <li>About Us</li>
+                        <li>Testimonial</li>
+                        <li>Promo</li>
+                        <li>Contact</li>
+                        <li>Our Partners</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="communicate">
+                <h3>Get in Touch</h3>
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>B block Imperial Square, Amin Marg Rajkot </span>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-envelope"></i>
+                        dining@eatswift.com
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-phone"></i>
+                        +91 97271 22388
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
